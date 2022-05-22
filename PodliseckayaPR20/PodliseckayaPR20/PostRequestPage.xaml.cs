@@ -21,7 +21,7 @@ namespace PodliseckayaPR20
         private async void Button_Clicked(object sender, EventArgs e)
         {
             var user = new PutUser();
-            user.Name = "Dmitriy Kovalev";
+            user.Name = "Anna Podliseckaya";
             user.Job = "Programmer";
             string json = JsonConvert.SerializeObject(user);
             HttpContent content = new StringContent(json);
